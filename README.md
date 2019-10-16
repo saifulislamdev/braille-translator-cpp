@@ -1,4 +1,4 @@
-# Braille-Translator
+# BrailleTranslator1
 
 This project was my team's submission for HackCooper2019. Our idea was to create a website that did the following:
 * convert books written in English to books written in Braille
