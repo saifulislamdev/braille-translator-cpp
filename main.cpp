@@ -7,27 +7,7 @@ int main() {
     char character;
     while (cin >> character) {
         switch (character) {
-            // Spaces
-            case ' ':
-                output += "          ";
-                break;
-            case '\t':
-                output += "\t";
-                break;
-            case '\n':
-                output += "\n";
-                break;
-            case '\v':
-                output += "\v";
-                break;
-            case '\f':
-                output += "\f";
-                break;
-            case '\r':
-                output += "\r";
-                break;
-
-                // Letters
+            // Letters
             case 'a':
             case 'A': {
                 output += "⠁";
@@ -192,20 +172,74 @@ int main() {
                 break;
 
                 // Symbols
+            case '\'':
+                output += "⠄";
+                break;
+//            case '‘':
+//                output += "⠄⠦";
+//                break;
+//            case '’':
+//                output += "⠄⠴";
+//                break;
             case '.':
                 output += "⠲";
                 break;
             case '-':
-                output += "⠤";
+                output += "⠐⠤";
                 break;
+//            case '–':
+//                output += "⠠⠤";
+//                break;
+//            case '—':
+//                output += "⠐⠠⠤";
+//                break;
+            case '=':
+                output += "⠐⠶";
+                break;
+            case '+':
+                output += "⠐⠖";
+                break;
+//            case '×':
+//                output += "⠐⠐⠦";
+//                break;
+//            case '÷':
+//                output += "⠐⠌";
+//                break;
             case ';':
                 output += "⠆";
+                break;
+            case ':':
+                output += "⠒";
                 break;
             case '\"':
                 output += "⠄⠶";
                 break;
+//            case '“':
+//                output += "⠘⠦";
+//                break;
+//            case '”':
+//                output += "⠘⠴";
+//                break;
+            case ',':
+                output += "⠂";
+                break;
+            case '?':
+                output += "⠦";
+                break;
             case '!':
                 output += "⠖";
+                break;
+            case '@':
+                output += "⠈⠁";
+                break;
+            case '#':
+                output += "⠼";
+                break;
+            case '&':
+                output += "⠈⠯";
+                break;
+            case '*':
+                output += "⠔";
                 break;
             case '(':
                 output += "⠐⠣";
@@ -213,20 +247,26 @@ int main() {
             case ')':
                 output += "⠐⠜";
                 break;
-            case ',':
-                output += "⠂";
+//            case "©":
+//                output += "⠘⠉";
+//                break;
+//            case "®":
+//                output += "⠘⠗";
+//                break;
+//            case "™":
+//                output += "⠘⠞";
+//                break;
+//            case "°":
+//                output += "⠘⠚";
+//                break;
+            case '%':
+                output += "⠨⠴";
                 break;
-            case '@':
-                output += "⠜";
-                break;
-            case '*':
-                output += "⠔";
-                break;
-
             default:
-                output += "This character is not yet registered on the system";
+                output += character;
+                break;
         }
     }
-cout << output << endl;
+    cout << output << endl;
     return EXIT_SUCCESS;
 }
