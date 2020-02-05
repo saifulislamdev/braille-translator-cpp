@@ -1,5 +1,10 @@
 # BrailleTranslator1
 
+Collaborators: 
+Justin Siu (justinsiu1@gmail.com) 
+Mark Natavio (mbnatavio@gmail.com) 
+Tanvir Youhana (tanviryouhana@gmail.com)
+
 This project was my team's submission for HackCooper2019. Our idea was to create a website that did the following:
 * convert books written in English to books written in Braille
 * contain a library of books already written in Braille
