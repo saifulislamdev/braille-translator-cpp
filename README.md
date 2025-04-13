@@ -1,4 +1,4 @@
-# BrailleTranslator1
+# Braille Translator C++
 
 Collaborators: 
 Justin Siu (justinsiu1@gmail.com) 
